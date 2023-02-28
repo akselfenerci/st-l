@@ -1,7 +1,7 @@
-#IPE80
+#HEB180
 import pandas as pd
 tverrsnittsdata = pd.read_csv('C:\\Users\\47406\\AAA Studass filer\\tverrsnittsprofildata.csv',sep = ';')
-section = 'IPE80'
+section = 'HEB180'
 sectionlist = tverrsnittsdata['tverrsnitt']
 sectiondata = []
 for i in range( 0,len(sectionlist)-1 ):
