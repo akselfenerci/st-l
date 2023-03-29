@@ -1,6 +1,6 @@
 #HEA100
 import pandas as pd
-tverrsnittsdata = pd.read_csv('C:\\Users\\47406\\AAA Studass filer\\tverrsnittsprofildata.csv',sep = ';')
+tverrsnittsdata = pd.read_csv('C:\\Users\\akselfe\\Documents\\st-l\\tverrsnittsprofildata.csv',sep = ';')
 section = 'HEA100'
 sectionlist = tverrsnittsdata['tverrsnitt']
 sectiondata = []
